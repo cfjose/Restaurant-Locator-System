@@ -1,113 +1,61 @@
-<?php
-    session_start();
-
-    $username="root";
-    $password="projDb_2016";
-    $db="rls_db";
-    $hostname="localhost";
-
-    @mysqli_connect($hostname, $username, $password);
-    @mysqli_select_db(mysqli_connect($hostname, $username, $password), $db);
-
-    $link = mysqli_connect($hostname, $username, $password);
-?>
+<!DOCTYPE html>
 <html>
+    <?php
+        if (isset($this->session->userdata['logged_in'])) {
+            header("location: http://localhost/login/index.php/user_authentication/user_login_process");
+        }
+    ?>
+
     <head>
-        <title>Create your new Account - SAMS</title>
-        <style>
-            body{
-                background-color:rgb(27,61,85);
-                overflow-x:hidden;
-                margin:0;
-                padding:0;
-                font-family:arial;
-            }
-
-            div.bgovr{
-                width:100%;
-                min-height:100px;
-                padding-top:130px;
-                padding-left:320px;
-                padding-right:0px;
-                position:absolute;
-            }
-
-            div.main{
-                padding-bottom:40px;
-                padding-top:40px;
-                padding-left:40px;
-                padding-right:40px;
-                width:50%;
-                vertical-align:middle;
-                border:1px solid black;
-                background-color:rgb(232,192,32);
-                margin-bottom:115px;
-            }
-
-            input.btnext{
-                border-radius:15px;
-                width:100px;
-                height:50px;
-            }
-
-            input[type="text"], [type="password"]{
-                border-radius:5px;
-                height:30px;
-                width:50%;
-                font-size:15px;
-                padding-left:3px;
-            }
-
-            h2, h3{
-                line-height:10px;
-                color:rgb(8,8,194);
-            }
-        </style>
+        <title>Login Form</title>
+        <link rel="stylesheet" type="text/css" href="http://localhost/restaurant_locator_system/css/style.css">
+        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro|Open+Sans+Condensed:300|Raleway' rel='stylesheet' type='text/css'>
     </head>
     <body>
-        <div class="bgovr">
-            <div class="main">
-                <!--<center><img src='images/sao.png' alt="SAO_Logo" width="200px" height="200px" />-->
-                <h2>Restaurant Locator System</h2>
-                <h3>Log In</h3></center>
+        <?php
+            if (isset($logout_message)) {
+                echo "<div class='message'>";
+                echo $logout_message;
+                echo "</div>";
+            }
+        ?>
 
-                <form action="" method="POST">
-                    <label>Username: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-                    <input type="text" name="username" required/><br><br>
-                    <label>Password: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-                    <input type="password" name="pswd" required/><br><br>
-                    <center><input type="submit" name="next" class="btnext" value="SUBMIT" /></center><br/>
-                    <center><input type="submit" name="signup" class="btnext" value="SIGN UP"/></center><br />
-                </form>
+        <?php
+            if (isset($message_display)) {
+                echo "<div class='message'>";
+                echo $message_display;
+                echo "</div>";
+            }
+        ?>
+
+        <div id="main">
+            <div id="login">
+                <h2>Login Form</h2>
+                <hr/>
                 <?php
-                if(isset($_POST['next'])){
-                    $username = $_POST['username'];
-                    $password = $_POST['pswd'];
-
-                    $sql = "SELECT `id` FROM USER WHERE `username` = $username AND `password` = $password";
-                    $resultId = mysqli_query($link, $sql);
-
-                    $sql = "SELECT `password` FROM USER WHERE `username` = $username";
-                    $resultPass = mysqli_query($link, $sql);
-                    $rowPass = mysqli_fetch_assoc($resultPass);
-
-                    if($resultPass[0] == ""){
-                        if(!($password === $pass)){
-                            echo "Incorrect Username or Password. Please try again.";
-                        }else {
-                            $_SESSION['username'] = $username;
-                            $_SESSION['password'] = $password;
-
-                            header('Location: user_profile.php');
-                        }
-                    }else{
-                        echo "Invalid Username and / or Password.";
-                    }
-                }else if(isset($_POST['signup'])){
-                    header('Location: signup.php');
-                }
+                    $this->load->helper('form');
+                    echo form_open('user_authentication/user_login_process');
                 ?>
+                <?php
+                echo "<div class='error_msg'>";
+                if (isset($error_message)) {
+                    echo $error_message;
+                }
+                echo validation_errors();
+                echo "</div>";
+                ?>
+                <label>UserName :</label>
+                <input type="text" name="username" id="name" placeholder="username"/><br /><br />
+                <label>Password :</label>
+                <input type="password" name="password" id="password" placeholder="**********"/><br/><br />
+                <input type="submit" value=" Login " name="submit"/><br />
+                <center>
+                    <p>Don't have an Account?</p>
+                    <a href="http://localhost/restaurant_locator_system/index.php/signup">Sign Up</a>
+                </center>
+                <?php echo form_close(); ?>
             </div>
         </div>
     </body>
 </html>
+
