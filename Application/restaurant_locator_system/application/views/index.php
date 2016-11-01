@@ -153,15 +153,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<div id="navbar" class="collapse navbar-collapse">
 				<ul class="nav navbar-nav">
 					<li class="active"><a href="#">Home</a></li>
-					<li><a href="#about">About</a></li>
+					<li><a href="http://localhost/restaurant_locator_system/index.php/about">About</a></li>
 					<li><a href="#contact">Contact</a></li>
 				</ul>
 			</div><!--/.nav-collapse -->
 		</div>
 		<div id="navbar" class="navbar-collapse collapse">
-			<form class="navbar-form navbar-right">
+			<form class="navbar-form navbar-right" action="http://localhost/restaurant_locator_system/index.php/user_authentication/user_login_process">
 				<div class="form-group">
-					<input type="text" placeholder="Email" class="form-control">
+					<input type="text" placeholder="Username" class="form-control">
 				</div>
 				<div class="form-group">
 					<input type="password" placeholder="Password" class="form-control">

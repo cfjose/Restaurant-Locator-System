@@ -44,7 +44,7 @@
                 echo validation_errors();
                 echo "</div>";
                 ?>
-                <label>UserName :</label>
+                <label>User Name :</label>
                 <input type="text" name="username" id="name" placeholder="username"/><br /><br />
                 <label>Password :</label>
                 <input type="password" name="password" id="password" placeholder="**********"/><br/><br />

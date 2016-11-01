@@ -1,5 +1,5 @@
 <?php
-    session_start();
+    //session_start();
 
     class user_authentication extends CI_Controller
     {
@@ -13,13 +13,15 @@
 
             $this->load->library('session');
 
-            $this->load->model('session');
+            //$this->load->model('session');
 
             $this->load->model('login_database');
+
+            $this->load->helper('security');
         }
 
         public function index(){
-            $this->load->view('login_form');
+            $this->load->view('login');
         }
 
         public function new_user_registration(){
@@ -28,7 +30,7 @@
             $this->form_validation->set_rules('email', 'Email', 'trim|required|xss_clean');
 
             if($this->form_validation->run() == FALSE){
-                $this->load->view('registration_form');
+                $this->load->view('signup');
             }else{
                 $data = array('username' => $this->input->post('username'),
                                 'email' => $this->input->post('email'),
@@ -38,10 +40,10 @@
 
                 if($result == TRUE){
                     $data['message_display'] = 'Registration Successful';
-                    $this->load->view('login_form', $data);
+                    $this->load->view('login', $data);
                 }else{
                     $data['message_display'] = 'Account already exists';
-                    $this->load->view('registration_form', $data);
+                    $this->load->view('signup', $data);
                 }
             }
         }
@@ -52,9 +54,9 @@
 
             if($this->form_validation->run() == FALSE){
                 if(isset($this->session->userdata['logged_in'])){
-                    $this->load->view('main_page');
+                    $this->load->view('main');
                 }else{
-                    $this->load->view('login_form');
+                    $this->load->view('login');
                 }
             }else{
                 $data = array(
@@ -74,11 +76,11 @@
                             );
 
                         $this->session->set_userdata('logged_in', $session_data);
-                        $this->load->view('main_page');
+                        $this->load->view('main');
                     }
                 }else{
                     $data = array('error_message' => 'Invalid Username or Password');
-                    $this->load->view('login_form', $data);
+                    $this->load->view('login', $data);
                 }
             }
         }
@@ -87,8 +89,8 @@
             // Removing session data
             $sess_array = array('username' => '');
             $this->session->unset_userdata('logged_in', $sess_array);
-            $data['message_display'] = 'Successfully Logout';
-            $this->load->view('login_form', $data);
+            //$data['message_display'] = 'Successfully Logout';
+            $this->load->view('login');
         }
     }
 ?>

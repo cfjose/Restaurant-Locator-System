@@ -23,3 +23,5 @@ class About extends CI_Controller {
 		$this->load->view('about');
 	}
 }
+
+
