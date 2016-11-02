@@ -1,0 +1,231 @@
+<html>
+<head>
+<body>
+<style>
+body {
+ background-color: #F9F7F3;
+}
+#main {
+    clear: both;
+    min-width: 1030px;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+    z-index: 10;
+}
+#main .container {
+    height: 100%;
+}
+.container {
+    width: 900px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+h4 {
+	margin: 0;
+    padding: 0;
+    height: 45px;
+    padding-top: 200px;
+    color: #fff;
+    font-size: 3.0em;
+    -webkit-transform: translate3d(0,0,0);
+    font-weight: bold;
+    font-family: "SerifaBT-Light",Georgia,"Times New Roman",Times,serif;;
+    text-rendering: optimizelegibility;
+    z-index: 10;
+	color: white;
+
+}
+p {
+    display: block;
+	color: white;
+    font-weight: bold;
+    font-family: "SerifaBT-Light",Georgia,"Times New Roman",Times,serif;;
+}
+#search {
+    position: absolute;
+    z-index: 9;
+}
+#search form {
+    background-color: #fff;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 1px 1px rgba(0,0,0,0.25), 0px 0px 88px rgba(0,0,0,0.25);
+    -webkit-transform: translate3d(0,0,0);
+    overflow: hidden;
+}
+form {
+    display: block;
+    margin-top: 0em;
+}
+#search input {
+    border: 0;
+    font-size: 1.75em;
+    float: left;
+    line-height: 25px;
+    height: 25px;
+    margin-top: 6px;
+    outline: 0;
+    width: 450px;
+}
+#search #go {
+    width: 40px;
+    height: 40px;
+    text-indent: -9999em;
+    background: url(https://www.workday.com/content/dam/web/en-us/images/icons/general/icon-search.svg) no-repeat;
+    margin: 0;
+    padding: 0;
+    float: right;
+    font-size: 0;
+    display: block;
+    line-height: 0;
+    margin-left: 10px;
+}
+#search form {
+    background-color: #fff;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 1px 1px rgba(0,0,0,0.25), 0px 0px 88px rgba(0,0,0,0.25);
+    -webkit-transform: translate3d(0,0,0);
+    overflow: hidden;
+}
+#carousel {
+    display: block;
+    min-width: 1030px !important;
+    height: 100%;
+    width: 100% !important;
+    bottom: 0 !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    overflow: hidden !important;
+    position: absolute;
+}
+div.mc-cycle {
+    height: 100%;
+    width: 100% !important;
+    z-index: 0;
+    overflow: hidden;
+    min-width: 1030px !important;
+    min-height: 500px;
+}
+.mc-image:first-child {
+    display: block;
+}
+div.mc-image {
+    transition: opacity 0.4s ease-out;
+    -moz-transition: opacity 0.4s ease-out;
+    -webkit-transition: opacity 0.4s ease-out;
+    -o-transition: opacity 0.4s ease-out;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+    background-position: center top;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 100% !important;
+    width: 100% !important;
+    min-width: 1030px !important;
+}
+element.style {
+    height: 655px;
+    width: 982px;
+}
+.mc-image img, .photo img {
+    /* min-width: 1030px !important; */
+    width: 100% !important;
+    height: auto !important;
+    margin: 0 !important;
+	-webkit-filter: blur(5px); /* Safari */
+    filter: blur(5px);
+}
+h2 {
+	text-align: center;
+	display: block;
+	font-family: 'Cambria';
+	font-size: 30px;
+	font-weight: 400;
+	color: #DEB675;
+}
+h2 em {
+	font-size: 60px;
+	font-weight: bold;
+	color: #DEB675;
+	font-family: 'Yesteryear';
+}
+
+.cuititle {
+    font-family: Cambria;
+    font-size: 20px;
+    padding-top: 8px;
+}
+a { 
+ text-decoration:none; 
+}
+footer {
+	padding: 1em;
+    background-color: #DEB675;
+    clear: left;
+    text-align: center;
+}
+
+</style>
+<div id="main">
+				<div class="container">
+					<h4 class="welcome">Are you hungry? </h4>
+					<p class="subtext">Find the affordable restaurants nearby. </p>
+					<div id="search">
+						<form action="" method="get">
+							<input id="keyword" name="q" placeholder="Search for city or restaurant name.." class="ui-autocomplete-input" autocomplete="off" role="textbox" aria-autocomplete="list" aria-haspopup="true">
+							<input id="go" type="submit" value="Search">                
+						</form>
+					</div>
+				</div>	
+			</div>
+			<div id="carousel">
+				<div id="maximage" class="mc-cycle" style="visibility: visible;">
+                <div class="mc-image mc-image-n0" style="height: 655px; width: 536px;"><img src="http://www.tulibistro.com/wp-content/uploads/2015/11/Baleen-Kitchen-Restaurang-Ambiance.jpg" style="height: 655px; width: 982px;"></div>
+            </div>
+			</div>
+            <div style="text-align: center;">
+    			<h2> Suggested <br /><em> Cuisines </em> </h2>
+                <div style="float: left; width: 50%; margin: 0 auto;">
+        			<h3 class="cuititle"> <a href=""><font color="black"> American </font></a></h3>
+        			<img src="https://img.grouponcdn.com/deal/23xq8aqhkiXd4X6saJx1/DQ-700x420/v1/c700x420.jpg" width="500" height="300" >
+        		</div>
+                <div style="float: left; width: 50%; margin: 0 auto;">
+                    <h3 class="cuititle"> <a href=""><font color="black"> Chinese </font></a></h3>
+        			<img src="https://s-media-cache-ak0.pinimg.com/originals/1e/6f/0a/1e6f0a48ad1168accfd7898e4e4cb9f2.jpg" width="500" height="300">
+                </div>
+                <div style="float: left; width: 50%; margin: 0 auto;">
+        			<h3 class="cuititle"> <a href=""><font color="black"> Italian </font></a></h3>	
+        			<img src="http://www.borongaja.com/data_images/out/13/622789-italian-food-pizza.jpg" width="500" height="300">		
+                </div>
+                    <div style="float: left; width: 50%; margin: 0 auto;">
+        			<h3 class="cuititle"> <a href=""><font color="black"> Filipino </font></a></h3>		
+        			<img src="http://www.tablefortwoblog.com/wp-content/uploads/2012/03/crockpot-chicken-adobo-2.jpg" width="500" height="300">
+                </div>
+                    <div style="float: left; width: 50%; margin: 0 auto;">
+        			<h3 class="cuititle"> <a href=""><font color="black"> Japanese </font></a></h3>	
+        			<img src="http://www.zastavki.com/pictures/originals/2014/Food___Seafood____Japanese_cuisine_060283_.jpg" width="500" height="300">
+                </div>
+                <div style="float: left; width: 50%; margin: 0 auto;">
+        			<h3 class="cuititle"> <a href=""><font color="black"> Mexican </font></a></h3>
+        			<img src="http://factoflife.net/upload/images/20160510/tortillas%20-mexican-food.jpg" width="500" height="300">
+                </div>
+            <div>
+
+
+			
+<footer>
+  <p>Copyright © Restaurant Locator
+</footer>	
+
+</body>
+</head>
+</html>
