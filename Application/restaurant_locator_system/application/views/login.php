@@ -2,7 +2,7 @@
 <html>
     <?php
         if (isset($this->session->userdata['logged_in'])) {
-            header("location: http://localhost/login/index.php/user_authentication/user_login_process");
+            header("location: http://localhost/restaurant_locator_system/index.php/user_authentication/user_login_process");
         }
     ?>
 

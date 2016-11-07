@@ -67,13 +67,13 @@ if (isset($this->session->userdata['logged_in'])) {
 
         /* Carousel base class */
         .carousel {
-            height: 660px;
+            height: 500px;
             margin-bottom: 60px;
         }
 
         /* Declare heights because of positioning of img element */
         .carousel .item {
-            height: 660px;
+            height: 500px;
             background-color: #777;
         }
         .carousel-inner > .item > img {
@@ -81,7 +81,7 @@ if (isset($this->session->userdata['logged_in'])) {
             top: 0;
             left: 0;
             min-width: 100%;
-            height: 660px;
+            height: 500px;
         }
 
         div.navbar-header{
@@ -122,7 +122,7 @@ if (isset($this->session->userdata['logged_in'])) {
             color: white;
         }
 
-        h3{ padding-top: 200px;}
+        h3{ padding-top: 160px;}
         h5{ font-size:2.0em; padding-top:60px;}
 
         #search {
@@ -238,6 +238,7 @@ if (isset($this->session->userdata['logged_in'])) {
         footer{
             width:1140px;
             margin:auto;
+            margin-top:80px;
         }
 
     </style>
@@ -260,44 +261,19 @@ if (isset($this->session->userdata['logged_in'])) {
         <div class="item active">
             <img class="first-slide" src="http://localhost/restaurant_locator_system/res/images/restaurant-ambiance.jpg" alt="First slide">
             <h3>Welcome, <?php echo $username; ?>!</h3>
-            <h4 class="welcome">Are you hungry? </h4><br />
             <h5>Find the affordable restaurants nearby. </h5>
             <div id="search">
-                <form action="search" method="get">
+                <form action="" method="get">
                     <input id="keyword" name="q" placeholder="Search for city or restaurant name.." class="ui-autocomplete-input" autocomplete="off" role="textbox" aria-autocomplete="list" aria-haspopup="true">
                     <input id="go" type="submit" value="Search">
                 </form>
             </div>
         </div>
     </div>
+</div>
 
-    <div style="text-align: center;">
-        <h2> Suggested <br /><em> Cuisines </em> </h2>
-        <div style="float: left; width: 50%; margin: 0 auto;">
-            <h3 class="cuititle"> <a href=""><font color="black"> American </font></a></h3>
-            <img src="https://img.grouponcdn.com/deal/23xq8aqhkiXd4X6saJx1/DQ-700x420/v1/c700x420.jpg" width="500" height="300" >
-        </div>
-        <div style="float: left; width: 50%; margin: 0 auto;">
-            <h3 class="cuititle"> <a href=""><font color="black"> Chinese </font></a></h3>
-            <img src="https://s-media-cache-ak0.pinimg.com/originals/1e/6f/0a/1e6f0a48ad1168accfd7898e4e4cb9f2.jpg" width="500" height="300">
-        </div>
-        <div style="float: left; width: 50%; margin: 0 auto;">
-            <h3 class="cuititle"> <a href=""><font color="black"> Italian </font></a></h3>
-            <img src="http://www.borongaja.com/data_images/out/13/622789-italian-food-pizza.jpg" width="500" height="300">
-        </div>
-        <div style="float: left; width: 50%; margin: 0 auto;">
-            <h3 class="cuititle"> <a href=""><font color="black"> Filipino </font></a></h3>
-            <img src="http://www.tablefortwoblog.com/wp-content/uploads/2012/03/crockpot-chicken-adobo-2.jpg" width="500" height="300">
-        </div>
-        <div style="float: left; width: 50%; margin: 0 auto;">
-            <h3 class="cuititle"> <a href=""><font color="black"> Japanese </font></a></h3>
-            <img src="http://www.zastavki.com/pictures/originals/2014/Food___Seafood____Japanese_cuisine_060283_.jpg" width="500" height="300">
-        </div>
-        <div style="float: left; width: 50%; margin: 0 auto;">
-            <h3 class="cuititle"> <a href=""><font color="black"> Mexican </font></a></h3>
-            <img src="http://factoflife.net/upload/images/20160510/tortillas%20-mexican-food.jpg" width="500" height="300">
-        </div>
-    </div>
+    <h2>Found 1 restaurant(s) named ''</h2>
+
     <!-- FOOTER -->
     <footer>
         <p class="pull-right"><a href="#">Back to top</a></p>

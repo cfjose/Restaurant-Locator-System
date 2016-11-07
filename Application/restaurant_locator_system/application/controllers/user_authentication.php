@@ -1,6 +1,4 @@
 <?php
-    //session_start();
-
     class user_authentication extends CI_Controller
     {
         public function __construct()
@@ -12,8 +10,6 @@
             $this->load->library('form_validation');
 
             $this->load->library('session');
-
-            //$this->load->model('session');
 
             $this->load->model('login_database');
 
@@ -86,11 +82,13 @@
         }
 
         public function logout(){
-            // Removing session data
             $sess_array = array('username' => '');
             $this->session->unset_userdata('logged_in', $sess_array);
-            //$data['message_display'] = 'Successfully Logout';
             $this->load->view('login');
+        }
+
+        public function search(){
+            $this->load->view('search');
         }
     }
 ?>
