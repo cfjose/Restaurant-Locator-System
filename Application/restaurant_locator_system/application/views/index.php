@@ -30,7 +30,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			color: #5a5a5a;
 		}
 
-
 		/* CUSTOMIZE THE NAVBAR
         -------------------------------------------------- */
 
@@ -55,7 +54,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		.navbar-wrapper .navbar .container {
 			width: auto;
 		}
-
 
 		/* CUSTOMIZE THE CAROUSEL
         -------------------------------------------------- */
@@ -152,7 +150,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<a class="navbar-brand" href="#">Restaurant Locator System</a>
 			<div id="navbar" class="collapse navbar-collapse">
 				<ul class="nav navbar-nav">
-					<li class="active"><a href="#">Home</a></li>
+					<li class="active"><a href="http://localhost/restaurant_locator_system/">Home</a></li>
 					<li><a href="http://localhost/restaurant_locator_system/index.php/about">About</a></li>
 					<li><a href="#contact">Contact</a></li>
 				</ul>
@@ -160,13 +158,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		</div>
 		<div id="navbar" class="navbar-collapse collapse">
 			<form class="navbar-form navbar-right" action="http://localhost/restaurant_locator_system/index.php/user_authentication/user_login_process">
-				<div class="form-group">
-					<input type="text" placeholder="Username" class="form-control">
-				</div>
-				<div class="form-group">
-					<input type="password" placeholder="Password" class="form-control">
-				</div>
 				<button type="submit" class="btn btn-success">Sign in</button>
+				<a href="http://localhost/restaurant_locator_system/index.php/signup">Sign up today</a>
 			</form>
 		</div><!--/.navbar-collapse -->
 	</div>
