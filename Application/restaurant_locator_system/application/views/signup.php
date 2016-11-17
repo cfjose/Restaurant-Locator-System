@@ -1,10 +1,4 @@
 <html>
-    <?php
-        if (isset($this->session->userdata['logged_in'])) {
-            header("location: http://localhost/restaurant_locator_system/index.php/user_authentication/user_login_process");
-        }
-    ?>
-
     <head>
         <title>Registration Form</title>
         <link rel="stylesheet" type="text/css" href="http://localhost/restaurant_locator_system/css/style.css">
@@ -12,7 +6,7 @@
     </head>
     <body>
         <div id="main">
-            <div id="login">
+            <div id="signup">
                 <h2>Registration Form</h2>
                 <hr/>
 

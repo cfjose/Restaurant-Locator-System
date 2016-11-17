@@ -27,7 +27,6 @@
                 echo "</div>";
             }
         ?>
-
         <div id="main">
             <div id="login">
                 <h2>Login Form</h2>
