@@ -21,92 +21,182 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/index.php">
+      <file leaf-file-name="japanese.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/japanese.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1134">
-              <caret line="135" column="9" selection-start-line="135" selection-start-column="9" selection-end-line="135" selection-end-column="9" />
-              <folding />
+            <state relative-caret-position="53">
+              <caret line="333" column="63" selection-start-line="333" selection-start-column="63" selection-end-line="333" selection-end-column="63" />
+              <folding>
+                <marker date="1479388039997" expanded="true" signature="10178:10225" ph="SELECT id FR... category" />
+                <marker date="1479388039997" expanded="true" signature="10347:10417" ph="SELECT resta... restaurant_has_category" />
+                <marker date="1479388039997" expanded="true" signature="10578:10617" ph="SELECT name restaurant" />
+                <marker date="1479388039997" expanded="true" signature="10806:10885" ph="SELECT branc... restaurant" />
+                <marker date="1479388039997" expanded="true" signature="11027:11098" ph="SELECT locat... branch" />
+                <marker date="1479388039997" expanded="true" signature="12235:12278" ph="SELECT name category" />
+                <marker date="1479388039997" expanded="true" signature="12800:12849" ph="SELECT locat... branch" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/views/search.php">
+      <file leaf-file-name="korean.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/korean.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="274" column="43" selection-start-line="274" selection-start-column="43" selection-end-line="274" selection-end-column="43" />
-              <folding />
+            <state relative-caret-position="444">
+              <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+              <folding>
+                <marker date="1479388179903" expanded="true" signature="10172:10217" ph="SELECT id FR... category" />
+                <marker date="1479388179903" expanded="true" signature="10339:10409" ph="SELECT resta... restaurant_has_category" />
+                <marker date="1479388179903" expanded="true" signature="10570:10609" ph="SELECT name restaurant" />
+                <marker date="1479388179903" expanded="true" signature="10798:10877" ph="SELECT branc... restaurant" />
+                <marker date="1479388179903" expanded="true" signature="11019:11090" ph="SELECT locat... branch" />
+                <marker date="1479388179903" expanded="true" signature="12227:12270" ph="SELECT name category" />
+                <marker date="1479388179903" expanded="true" signature="12792:12841" ph="SELECT locat... branch" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user_authentication.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/user_authentication.php">
+      <file leaf-file-name="latin_american.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/latin_american.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+              <folding>
+                <marker date="1479388328560" expanded="true" signature="10196:10249" ph="SELECT id FR... category" />
+                <marker date="1479388328560" expanded="true" signature="10371:10441" ph="SELECT resta... restaurant_has_category" />
+                <marker date="1479388328560" expanded="true" signature="10602:10641" ph="SELECT name restaurant" />
+                <marker date="1479388328560" expanded="true" signature="10830:10909" ph="SELECT branc... restaurant" />
+                <marker date="1479388328560" expanded="true" signature="11051:11122" ph="SELECT locat... branch" />
+                <marker date="1479388328560" expanded="true" signature="12259:12302" ph="SELECT name category" />
+                <marker date="1479388328560" expanded="true" signature="12824:12873" ph="SELECT locat... branch" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mediterranean.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/mediterranean.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+              <folding>
+                <marker date="1479388722608" expanded="true" signature="10193:10245" ph="SELECT id FR... category" />
+                <marker date="1479388722608" expanded="true" signature="10367:10437" ph="SELECT resta... restaurant_has_category" />
+                <marker date="1479388722608" expanded="true" signature="10598:10637" ph="SELECT name restaurant" />
+                <marker date="1479388722608" expanded="true" signature="10826:10905" ph="SELECT branc... restaurant" />
+                <marker date="1479388722608" expanded="true" signature="11047:11118" ph="SELECT locat... branch" />
+                <marker date="1479388722608" expanded="true" signature="12255:12298" ph="SELECT name category" />
+                <marker date="1479388722608" expanded="true" signature="12820:12869" ph="SELECT locat... branch" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mexican.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/mexican.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+              <folding>
+                <marker date="1479388839776" expanded="true" signature="10175:10221" ph="SELECT id FR... category" />
+                <marker date="1479388839776" expanded="true" signature="10343:10413" ph="SELECT resta... restaurant_has_category" />
+                <marker date="1479388839776" expanded="true" signature="10574:10613" ph="SELECT name restaurant" />
+                <marker date="1479388839776" expanded="true" signature="10802:10881" ph="SELECT branc... restaurant" />
+                <marker date="1479388839776" expanded="true" signature="11023:11094" ph="SELECT locat... branch" />
+                <marker date="1479388839776" expanded="true" signature="12231:12274" ph="SELECT name category" />
+                <marker date="1479388839776" expanded="true" signature="12796:12845" ph="SELECT locat... branch" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="middle_east.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/middle_east.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="314" column="115" selection-start-line="314" selection-start-column="115" selection-end-line="314" selection-end-column="115" />
+              <folding>
+                <marker date="1479388911284" expanded="true" signature="10196:10249" ph="SELECT id FR... category" />
+                <marker date="1479388911284" expanded="true" signature="10371:10441" ph="SELECT resta... restaurant_has_category" />
+                <marker date="1479388911284" expanded="true" signature="10602:10641" ph="SELECT name restaurant" />
+                <marker date="1479388911284" expanded="true" signature="10830:10909" ph="SELECT branc... restaurant" />
+                <marker date="1479388911284" expanded="true" signature="11051:11122" ph="SELECT locat... branch" />
+                <marker date="1479388911284" expanded="true" signature="12259:12302" ph="SELECT name category" />
+                <marker date="1479388911284" expanded="true" signature="12824:12873" ph="SELECT locat... branch" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="seafood.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/seafood.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+              <folding>
+                <marker date="1479389117801" expanded="true" signature="10175:10221" ph="SELECT id FR... category" />
+                <marker date="1479389117801" expanded="true" signature="10343:10413" ph="SELECT resta... restaurant_has_category" />
+                <marker date="1479389117801" expanded="true" signature="10574:10613" ph="SELECT name restaurant" />
+                <marker date="1479389117801" expanded="true" signature="10802:10881" ph="SELECT branc... restaurant" />
+                <marker date="1479389117801" expanded="true" signature="11023:11094" ph="SELECT locat... branch" />
+                <marker date="1479389117801" expanded="true" signature="12231:12274" ph="SELECT name category" />
+                <marker date="1479389117801" expanded="true" signature="12796:12845" ph="SELECT locat... branch" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spanish.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/spanish.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+              <folding>
+                <marker date="1479389290618" expanded="true" signature="10175:10221" ph="SELECT id FR... category" />
+                <marker date="1479389290618" expanded="true" signature="10343:10413" ph="SELECT resta... restaurant_has_category" />
+                <marker date="1479389290618" expanded="true" signature="10574:10613" ph="SELECT name restaurant" />
+                <marker date="1479389290618" expanded="true" signature="10802:10881" ph="SELECT branc... restaurant" />
+                <marker date="1479389290618" expanded="true" signature="11023:11094" ph="SELECT locat... branch" />
+                <marker date="1479389290618" expanded="true" signature="12231:12274" ph="SELECT name category" />
+                <marker date="1479389290618" expanded="true" signature="12796:12845" ph="SELECT locat... branch" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="taiwanese.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/taiwanese.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+              <folding>
+                <marker date="1479389398630" expanded="true" signature="10181:10229" ph="SELECT id FR... category" />
+                <marker date="1479389398630" expanded="true" signature="10351:10421" ph="SELECT resta... restaurant_has_category" />
+                <marker date="1479389398630" expanded="true" signature="10582:10621" ph="SELECT name restaurant" />
+                <marker date="1479389398630" expanded="true" signature="10810:10889" ph="SELECT branc... restaurant" />
+                <marker date="1479389398630" expanded="true" signature="11031:11102" ph="SELECT locat... branch" />
+                <marker date="1479389398630" expanded="true" signature="12239:12282" ph="SELECT name category" />
+                <marker date="1479389398630" expanded="true" signature="12804:12853" ph="SELECT locat... branch" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tea.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/tea.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="427">
-              <caret line="90" column="40" selection-start-line="90" selection-start-column="40" selection-end-line="90" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="signup.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/signup.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="72" selection-start-line="3" selection-start-column="72" selection-end-line="3" selection-end-column="72" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/main.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="265" column="36" selection-start-line="265" selection-start-column="36" selection-end-line="265" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Search.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/Search.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Admin.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/Admin.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="63" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/login.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="72" selection-start-line="4" selection-start-column="72" selection-end-line="4" selection-end-column="72" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Login.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/Login.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-              <folding />
+              <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+              <folding>
+                <marker date="1479389510801" expanded="true" signature="10153:10195" ph="SELECT id FR... category" />
+                <marker date="1479389510801" expanded="true" signature="10317:10387" ph="SELECT resta... restaurant_has_category" />
+                <marker date="1479389510801" expanded="true" signature="10548:10587" ph="SELECT name restaurant" />
+                <marker date="1479389510801" expanded="true" signature="10776:10855" ph="SELECT branc... restaurant" />
+                <marker date="1479389510801" expanded="true" signature="10997:11068" ph="SELECT locat... branch" />
+                <marker date="1479389510801" expanded="true" signature="12205:12248" ph="SELECT name category" />
+                <marker date="1479389510801" expanded="true" signature="12770:12819" ph="SELECT locat... branch" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -123,31 +213,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/application/controllers/Welcome.php" />
-        <option value="$PROJECT_DIR$/application/controllers/Home.php" />
-        <option value="$PROJECT_DIR$/application/config/routes.php" />
-        <option value="$PROJECT_DIR$/application/views/about.php" />
-        <option value="$PROJECT_DIR$/application/controllers/Signup.php" />
-        <option value="$PROJECT_DIR$/application/controllers/Login.php" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/application/controllers/Main.php" />
-        <option value="$PROJECT_DIR$/application/controllers/Admin.php" />
-        <option value="$PROJECT_DIR$/application/views/admin.php" />
-        <option value="$PROJECT_DIR$/application/config/database.php" />
-        <option value="$PROJECT_DIR$/application/controllers/login_database.php" />
-        <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/application/controllers/About.php" />
-        <option value="$PROJECT_DIR$/application/config/autoload.php" />
-        <option value="$PROJECT_DIR$/application/models/login_database.php" />
-        <option value="$PROJECT_DIR$/application/controllers/User.php" />
-        <option value="$PROJECT_DIR$/application/views/user.php" />
-        <option value="$PROJECT_DIR$/application/controllers/Search.php" />
-        <option value="$PROJECT_DIR$/application/views/signup.php" />
+        <option value="$PROJECT_DIR$/application/controllers/Chinese.php" />
+        <option value="$PROJECT_DIR$/application/controllers/Desserts.php" />
+        <option value="$PROJECT_DIR$/application/controllers/European.php" />
+        <option value="$PROJECT_DIR$/application/controllers/Filipino.php" />
+        <option value="$PROJECT_DIR$/application/controllers/French.php" />
+        <option value="$PROJECT_DIR$/application/controllers/Indian.php" />
+        <option value="$PROJECT_DIR$/application/controllers/Italian.php" />
+        <option value="$PROJECT_DIR$/application/controllers/Japanese.php" />
+        <option value="$PROJECT_DIR$/application/controllers/Korean.php" />
+        <option value="$PROJECT_DIR$/application/controllers/LatinAm.php" />
+        <option value="$PROJECT_DIR$/application/controllers/Meditteranean.php" />
+        <option value="$PROJECT_DIR$/application/controllers/Mexican.php" />
+        <option value="$PROJECT_DIR$/application/controllers/MidEast.php" />
+        <option value="$PROJECT_DIR$/application/controllers/Seafood.php" />
+        <option value="$PROJECT_DIR$/application/controllers/Spanish.php" />
+        <option value="$PROJECT_DIR$/application/controllers/Taiwanese.php" />
+        <option value="$PROJECT_DIR$/application/controllers/Tea.php" />
         <option value="$PROJECT_DIR$/application/views/login.php" />
-        <option value="$PROJECT_DIR$/application/views/index.php" />
+        <option value="$PROJECT_DIR$/application/config/config.php" />
+        <option value="$PROJECT_DIR$/application/models/login_database.php" />
         <option value="$PROJECT_DIR$/application/views/main.php" />
+        <option value="$PROJECT_DIR$/application/views/signup.php" />
+        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/application/controllers/user_authentication.php" />
+        <option value="$PROJECT_DIR$/application/views/index.php" />
+        <option value="$PROJECT_DIR$/application/controllers/Restaurant.php" />
+        <option value="$PROJECT_DIR$/application/views/restaurant.php" />
         <option value="$PROJECT_DIR$/application/views/search.php" />
+        <option value="$PROJECT_DIR$/application/views/american.php" />
+        <option value="$PROJECT_DIR$/application/views/asian.php" />
+        <option value="$PROJECT_DIR$/application/views/australian.php" />
+        <option value="$PROJECT_DIR$/application/views/bakery.php" />
+        <option value="$PROJECT_DIR$/application/views/burger.php" />
+        <option value="$PROJECT_DIR$/application/views/cafe.php" />
+        <option value="$PROJECT_DIR$/application/views/chinese.php" />
+        <option value="$PROJECT_DIR$/application/views/desserts.php" />
+        <option value="$PROJECT_DIR$/application/views/european.php" />
+        <option value="$PROJECT_DIR$/application/views/filipino.php" />
+        <option value="$PROJECT_DIR$/application/views/french.php" />
+        <option value="$PROJECT_DIR$/application/views/indian.php" />
+        <option value="$PROJECT_DIR$/application/views/italian.php" />
+        <option value="$PROJECT_DIR$/application/views/japanese.php" />
+        <option value="$PROJECT_DIR$/application/views/korean.php" />
+        <option value="$PROJECT_DIR$/application/views/latin_american.php" />
+        <option value="$PROJECT_DIR$/application/views/mediterranean.php" />
+        <option value="$PROJECT_DIR$/application/views/mexican.php" />
+        <option value="$PROJECT_DIR$/application/views/middle_east.php" />
+        <option value="$PROJECT_DIR$/application/views/seafood.php" />
+        <option value="$PROJECT_DIR$/application/views/spanish.php" />
+        <option value="$PROJECT_DIR$/application/views/taiwanese.php" />
+        <option value="$PROJECT_DIR$/application/views/tea.php" />
       </list>
     </option>
   </component>
@@ -190,7 +306,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -255,43 +370,29 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="restaurant_locator_system" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="restaurant_locator_system" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="SQL Dialects" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\restaurant_locator_system\application\controllers" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\restaurant_locator_system\application\models" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\restaurant_locator_system\application\views" />
+      <recent name="C:\xampp\htdocs\restaurant_locator_system\application\controllers" />
     </key>
   </component>
   <component name="RunManager">
@@ -360,17 +461,33 @@
       <workItem from="1478437880724" duration="2683000" />
       <workItem from="1478446279410" duration="4000" />
       <workItem from="1478477287017" duration="3695000" />
+      <workItem from="1478563173688" duration="6161000" />
+      <workItem from="1478575394400" duration="1092000" />
+      <workItem from="1478610469203" duration="1701000" />
+      <workItem from="1478667987233" duration="2639000" />
+      <workItem from="1478700373625" duration="4476000" />
+      <workItem from="1478763977513" duration="7273000" />
+      <workItem from="1478868624826" duration="9085000" />
+      <workItem from="1478912166929" duration="7995000" />
+      <workItem from="1478953605801" duration="6165000" />
+      <workItem from="1479040841823" duration="6646000" />
+      <workItem from="1479115541452" duration="6010000" />
+      <workItem from="1479173976922" duration="6959000" />
+      <workItem from="1479189027143" duration="11000" />
+      <workItem from="1479349115896" duration="2326000" />
+      <workItem from="1479357055405" duration="6512000" />
+      <workItem from="1479382648046" duration="7026000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47142000" />
+    <option name="totallyTimeSpent" value="129219000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19106881" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18814056" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -401,382 +518,596 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/views/index.php">
+    <entry file="file://$PROJECT_DIR$/application/controllers/Indian.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3876">
-          <caret line="228" column="29" selection-start-line="228" selection-start-column="29" selection-end-line="228" selection-end-column="34" />
-          <folding />
+        <state relative-caret-position="85">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/signup.php">
+    <entry file="file://$PROJECT_DIR$/application/controllers/Italian.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="40" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
-          <folding />
+        <state relative-caret-position="85">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/Signup.php">
+    <entry file="file://$PROJECT_DIR$/application/controllers/Tea.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-          <folding />
+        <state relative-caret-position="136">
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/About.php">
+    <entry file="file://$PROJECT_DIR$/application/controllers/Taiwanese.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="85">
+          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/login_database.php">
+    <entry file="file://$PROJECT_DIR$/application/controllers/Spanish.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="44" column="25" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
-          <folding />
+        <state relative-caret-position="85">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/autoload.php">
+    <entry file="file://$PROJECT_DIR$/application/controllers/Seafood.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="60" column="40" selection-start-line="60" selection-start-column="40" selection-end-line="60" selection-end-column="40" />
+        <state relative-caret-position="85">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/user_authentication.php">
+    <entry file="file://$PROJECT_DIR$/application/controllers/MidEast.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
-          <folding />
+        <state relative-caret-position="85">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/Main.php">
+    <entry file="file://$PROJECT_DIR$/application/controllers/Mexican.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-          <folding />
+        <state relative-caret-position="85">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/main.php">
+    <entry file="file://$PROJECT_DIR$/application/controllers/LatinAm.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="85">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/login.php">
+    <entry file="file://$PROJECT_DIR$/application/controllers/Korean.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3230">
-          <caret line="190" column="26" selection-start-line="190" selection-start-column="26" selection-end-line="190" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1139">
-          <caret line="67" column="26" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/signup.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" column="45" selection-start-line="52" selection-start-column="45" selection-end-line="52" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/about.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1394">
-          <caret line="82" column="22" selection-start-line="82" selection-start-column="22" selection-end-line="82" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/user_authentication.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/Home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/About.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/about.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/Welcome.php" />
-    <entry file="file://$PROJECT_DIR$/system/database/DB_cache.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1139">
-          <caret line="67" column="26" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/core/Loader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5474">
-          <caret line="322" column="21" selection-start-line="322" selection-start-column="21" selection-end-line="322" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/core/compat/hash.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1768">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
-          <caret line="80" column="25" selection-start-line="80" selection-start-column="25" selection-end-line="80" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/About.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/Signup.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/about.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="85">
+          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/Main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/config/config.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="360" column="1" selection-start-line="360" selection-start-column="1" selection-end-line="360" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Australian.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/routes.php">
+    <entry file="file://$PROJECT_DIR$/application/controllers/Mediterranean.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="51" column="36" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
+        <state relative-caret-position="85">
+          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/system/core/Config.php">
+    <entry file="file://$PROJECT_DIR$/application/controllers/Japanese.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1751">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="85">
+          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/autoload.php">
+    <entry file="file://$PROJECT_DIR$/application/controllers/European.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="60" column="40" selection-start-line="60" selection-start-column="40" selection-end-line="60" selection-end-column="40" />
+        <state relative-caret-position="102">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/Home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/User.php" />
-    <entry file="file://$PROJECT_DIR$/application/views/user.php" />
     <entry file="file://$PROJECT_DIR$/application/models/login_database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/Login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/Admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/signup.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="72" selection-start-line="3" selection-start-column="72" selection-end-line="3" selection-end-column="72" />
-          <folding />
+        <state relative-caret-position="1547">
+          <caret line="91" column="7" selection-start-line="91" selection-start-column="7" selection-end-line="91" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="72" selection-start-line="4" selection-start-column="72" selection-end-line="4" selection-end-column="72" />
+        <state relative-caret-position="121">
+          <caret line="39" column="44" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-661">
+          <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/signup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/user_authentication.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="86" column="36" selection-start-line="86" selection-start-column="36" selection-end-line="86" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/American.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Restaurant.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1134">
-          <caret line="135" column="9" selection-start-line="135" selection-start-column="9" selection-end-line="135" selection-end-column="9" />
+        <state relative-caret-position="4216">
+          <caret line="248" column="19" selection-start-line="248" selection-start-column="19" selection-end-line="248" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/index.html">
+    <entry file="file://$PROJECT_DIR$/application/views/restaurant.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="1586">
+          <caret line="320" column="25" selection-start-line="320" selection-start-column="25" selection-end-line="320" selection-end-column="25" />
+          <folding>
+            <marker date="1479363609738" expanded="true" signature="9270:9284" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/application/views/american.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4397">
-          <caret line="314" column="23" selection-start-line="314" selection-start-column="23" selection-end-line="314" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/Search.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="265" column="36" selection-start-line="265" selection-start-column="36" selection-end-line="265" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/user_authentication.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="90" column="40" selection-start-line="90" selection-start-column="40" selection-end-line="90" selection-end-column="40" />
-          <folding />
+        <state relative-caret-position="289">
+          <caret line="215" column="27" selection-start-line="0" selection-start-column="0" selection-end-line="406" selection-end-column="7" />
+          <folding>
+            <marker date="1479386076146" expanded="true" signature="10186:10233" ph="SELECT id FR... category" />
+            <marker date="1479386076146" expanded="true" signature="10367:10436" ph="SELECT resta... restaurant_has_category" />
+            <marker date="1479386076146" expanded="true" signature="10367:10437" ph="SELECT resta... restaurant_has_category" />
+            <marker date="1479386076146" expanded="true" signature="10610:10648" ph="SELECT name restaurant" />
+            <marker date="1479386076146" expanded="true" signature="10610:10649" ph="SELECT name restaurant" />
+            <marker date="1479386076146" expanded="true" signature="10821:11519" ph="..." />
+            <marker date="1479386076146" expanded="true" signature="10850:10929" ph="SELECT branc... restaurant" />
+            <marker date="1479386076146" expanded="true" signature="11083:11154" ph="SELECT locat... branch" />
+            <marker date="1479386076146" expanded="true" signature="11484:11519" ph="..." />
+            <marker date="1479386076146" expanded="true" signature="12339:12382" ph="SELECT name category" />
+            <marker date="1479386076146" expanded="true" signature="12904:12953" ph="SELECT locat... branch" />
+            <marker date="1479386076146" expanded="true" signature="13262:13276" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/search.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="274" column="43" selection-start-line="274" selection-start-column="43" selection-end-line="274" selection-end-column="43" />
+        <state relative-caret-position="-369">
+          <caret line="337" column="0" selection-start-line="337" selection-start-column="0" selection-end-line="337" selection-end-column="0" />
+          <folding>
+            <marker date="1479384058872" expanded="true" signature="11466:11491" ph="SELECT name category" />
+            <marker date="1479384058872" expanded="true" signature="11466:11509" ph="SELECT name category" />
+            <marker date="1479384058872" expanded="true" signature="12055:12104" ph="SELECT locat... branch" />
+            <marker date="1479384058872" expanded="true" signature="12615:12675" ph="SELECT name restaurant" />
+            <marker date="1479384058872" expanded="true" signature="13049:13122" ph="SELECT branc... restaurant" />
+            <marker date="1479384058872" expanded="true" signature="13276:13347" ph="SELECT locat... branch" />
+            <marker date="1479384058872" expanded="true" signature="14128:14146" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="263" column="12" selection-start-line="263" selection-start-column="12" selection-end-line="263" selection-end-column="61" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/asian.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-437">
+          <caret line="314" column="106" selection-start-line="0" selection-start-column="0" selection-end-line="406" selection-end-column="7" />
+          <folding>
+            <marker date="1479386199928" expanded="true" signature="10169:10213" ph="SELECT id FR... category" />
+            <marker date="1479386199928" expanded="true" signature="10335:10405" ph="SELECT resta... restaurant_has_category" />
+            <marker date="1479386199928" expanded="true" signature="10566:10605" ph="SELECT name restaurant" />
+            <marker date="1479386199928" expanded="true" signature="10794:10873" ph="SELECT branc... restaurant" />
+            <marker date="1479386199928" expanded="true" signature="11015:11086" ph="SELECT locat... branch" />
+            <marker date="1479386199928" expanded="true" signature="12223:12266" ph="SELECT name category" />
+            <marker date="1479386199928" expanded="true" signature="12788:12837" ph="SELECT locat... branch" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/australian.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
+          <folding>
+            <marker date="1479386358480" expanded="true" signature="10184:10233" ph="SELECT id FR... category" />
+            <marker date="1479386358480" expanded="true" signature="10355:10425" ph="SELECT resta... restaurant_has_category" />
+            <marker date="1479386358480" expanded="true" signature="10586:10625" ph="SELECT name restaurant" />
+            <marker date="1479386358480" expanded="true" signature="10814:10893" ph="SELECT branc... restaurant" />
+            <marker date="1479386358480" expanded="true" signature="11035:11106" ph="SELECT locat... branch" />
+            <marker date="1479386358480" expanded="true" signature="12243:12286" ph="SELECT name category" />
+            <marker date="1479386358480" expanded="true" signature="12808:12857" ph="SELECT locat... branch" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/bakery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="333" column="61" selection-start-line="333" selection-start-column="61" selection-end-line="333" selection-end-column="61" />
+          <folding>
+            <marker date="1479386454299" expanded="true" signature="10160:10205" ph="SELECT id FR... category" />
+            <marker date="1479386454299" expanded="true" signature="10327:10397" ph="SELECT resta... restaurant_has_category" />
+            <marker date="1479386454299" expanded="true" signature="10558:10597" ph="SELECT name restaurant" />
+            <marker date="1479386454299" expanded="true" signature="10786:10865" ph="SELECT branc... restaurant" />
+            <marker date="1479386454299" expanded="true" signature="11007:11078" ph="SELECT locat... branch" />
+            <marker date="1479386454299" expanded="true" signature="12215:12258" ph="SELECT name category" />
+            <marker date="1479386454299" expanded="true" signature="12780:12829" ph="SELECT locat... branch" />
+            <marker date="1479386454299" expanded="true" signature="13138:13152" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/burger.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="314" column="116" selection-start-line="314" selection-start-column="116" selection-end-line="314" selection-end-column="116" />
+          <folding>
+            <marker date="1479386535175" expanded="true" signature="10173:10218" ph="SELECT id FR... category" />
+            <marker date="1479386535175" expanded="true" signature="10340:10410" ph="SELECT resta... restaurant_has_category" />
+            <marker date="1479386535175" expanded="true" signature="10571:10610" ph="SELECT name restaurant" />
+            <marker date="1479386535175" expanded="true" signature="10799:10878" ph="SELECT branc... restaurant" />
+            <marker date="1479386535175" expanded="true" signature="11020:11091" ph="SELECT locat... branch" />
+            <marker date="1479386535175" expanded="true" signature="12228:12271" ph="SELECT name category" />
+            <marker date="1479386535175" expanded="true" signature="12793:12842" ph="SELECT locat... branch" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/cafe.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="314" column="108" selection-start-line="314" selection-start-column="108" selection-end-line="314" selection-end-column="108" />
+          <folding>
+            <marker date="1479386669571" expanded="true" signature="10165:10208" ph="SELECT id FR... category" />
+            <marker date="1479386669571" expanded="true" signature="10330:10400" ph="SELECT resta... restaurant_has_category" />
+            <marker date="1479386669571" expanded="true" signature="10561:10600" ph="SELECT name restaurant" />
+            <marker date="1479386669571" expanded="true" signature="10789:10868" ph="SELECT branc... restaurant" />
+            <marker date="1479386669571" expanded="true" signature="11010:11081" ph="SELECT locat... branch" />
+            <marker date="1479386669571" expanded="true" signature="12218:12261" ph="SELECT name category" />
+            <marker date="1479386669571" expanded="true" signature="12783:12832" ph="SELECT locat... branch" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/chinese.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="314" column="108" selection-start-line="314" selection-start-column="108" selection-end-line="314" selection-end-column="108" />
+          <folding>
+            <marker date="1479386747732" expanded="true" signature="10175:10221" ph="SELECT id FR... category" />
+            <marker date="1479386747732" expanded="true" signature="10343:10413" ph="SELECT resta... restaurant_has_category" />
+            <marker date="1479386747732" expanded="true" signature="10574:10613" ph="SELECT name restaurant" />
+            <marker date="1479386747732" expanded="true" signature="10802:10881" ph="SELECT branc... restaurant" />
+            <marker date="1479386747732" expanded="true" signature="11023:11094" ph="SELECT locat... branch" />
+            <marker date="1479386747732" expanded="true" signature="12231:12274" ph="SELECT name category" />
+            <marker date="1479386747732" expanded="true" signature="12796:12845" ph="SELECT locat... branch" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/desserts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="333" column="63" selection-start-line="333" selection-start-column="63" selection-end-line="333" selection-end-column="63" />
+          <folding>
+            <marker date="1479386874685" expanded="true" signature="10175:10222" ph="SELECT id FR... category" />
+            <marker date="1479386874685" expanded="true" signature="10344:10414" ph="SELECT resta... restaurant_has_category" />
+            <marker date="1479386874685" expanded="true" signature="10575:10614" ph="SELECT name restaurant" />
+            <marker date="1479386874685" expanded="true" signature="10803:10882" ph="SELECT branc... restaurant" />
+            <marker date="1479386874685" expanded="true" signature="11024:11095" ph="SELECT locat... branch" />
+            <marker date="1479386874685" expanded="true" signature="12232:12275" ph="SELECT name category" />
+            <marker date="1479386874685" expanded="true" signature="12797:12846" ph="SELECT locat... branch" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/european.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="394" column="0" selection-start-line="394" selection-start-column="0" selection-end-line="394" selection-end-column="0" />
+          <folding>
+            <marker date="1479386950790" expanded="true" signature="10178:10225" ph="SELECT id FR... category" />
+            <marker date="1479386950790" expanded="true" signature="10347:10417" ph="SELECT resta... restaurant_has_category" />
+            <marker date="1479386950790" expanded="true" signature="10578:10617" ph="SELECT name restaurant" />
+            <marker date="1479386950790" expanded="true" signature="10806:10885" ph="SELECT branc... restaurant" />
+            <marker date="1479386950790" expanded="true" signature="11027:11098" ph="SELECT locat... branch" />
+            <marker date="1479386950790" expanded="true" signature="12235:12278" ph="SELECT name category" />
+            <marker date="1479386950790" expanded="true" signature="12800:12849" ph="SELECT locat... branch" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Filipino.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/filipino.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="333" column="63" selection-start-line="333" selection-start-column="63" selection-end-line="333" selection-end-column="63" />
+          <folding>
+            <marker date="1479387076623" expanded="true" signature="10178:10225" ph="SELECT id FR... category" />
+            <marker date="1479387076623" expanded="true" signature="10347:10417" ph="SELECT resta... restaurant_has_category" />
+            <marker date="1479387076623" expanded="true" signature="10578:10617" ph="SELECT name restaurant" />
+            <marker date="1479387076623" expanded="true" signature="10806:10885" ph="SELECT branc... restaurant" />
+            <marker date="1479387076623" expanded="true" signature="11027:11098" ph="SELECT locat... branch" />
+            <marker date="1479387076623" expanded="true" signature="12235:12278" ph="SELECT name category" />
+            <marker date="1479387076623" expanded="true" signature="12800:12849" ph="SELECT locat... branch" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/french.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+          <folding>
+            <marker date="1479387575345" expanded="true" signature="10172:10217" ph="SELECT id FR... category" />
+            <marker date="1479387575345" expanded="true" signature="10339:10409" ph="SELECT resta... restaurant_has_category" />
+            <marker date="1479387575345" expanded="true" signature="10570:10609" ph="SELECT name restaurant" />
+            <marker date="1479387575345" expanded="true" signature="10798:10877" ph="SELECT branc... restaurant" />
+            <marker date="1479387575345" expanded="true" signature="11019:11090" ph="SELECT locat... branch" />
+            <marker date="1479387575345" expanded="true" signature="12227:12270" ph="SELECT name category" />
+            <marker date="1479387575345" expanded="true" signature="12792:12841" ph="SELECT locat... branch" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/indian.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+          <folding>
+            <marker date="1479387723709" expanded="true" signature="10172:10217" ph="SELECT id FR... category" />
+            <marker date="1479387723709" expanded="true" signature="10339:10409" ph="SELECT resta... restaurant_has_category" />
+            <marker date="1479387723709" expanded="true" signature="10570:10609" ph="SELECT name restaurant" />
+            <marker date="1479387723709" expanded="true" signature="10798:10877" ph="SELECT branc... restaurant" />
+            <marker date="1479387723709" expanded="true" signature="11019:11090" ph="SELECT locat... branch" />
+            <marker date="1479387723709" expanded="true" signature="12227:12270" ph="SELECT name category" />
+            <marker date="1479387723709" expanded="true" signature="12792:12841" ph="SELECT locat... branch" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/italian.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="333" column="62" selection-start-line="333" selection-start-column="62" selection-end-line="333" selection-end-column="62" />
+          <folding>
+            <marker date="1479387800469" expanded="true" signature="10175:10221" ph="SELECT id FR... category" />
+            <marker date="1479387800469" expanded="true" signature="10343:10413" ph="SELECT resta... restaurant_has_category" />
+            <marker date="1479387800469" expanded="true" signature="10574:10613" ph="SELECT name restaurant" />
+            <marker date="1479387800469" expanded="true" signature="10802:10881" ph="SELECT branc... restaurant" />
+            <marker date="1479387800469" expanded="true" signature="11023:11094" ph="SELECT locat... branch" />
+            <marker date="1479387800469" expanded="true" signature="12231:12274" ph="SELECT name category" />
+            <marker date="1479387800469" expanded="true" signature="12796:12845" ph="SELECT locat... branch" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/japanese.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="333" column="63" selection-start-line="333" selection-start-column="63" selection-end-line="333" selection-end-column="63" />
+          <folding>
+            <marker date="1479388039997" expanded="true" signature="10178:10225" ph="SELECT id FR... category" />
+            <marker date="1479388039997" expanded="true" signature="10347:10417" ph="SELECT resta... restaurant_has_category" />
+            <marker date="1479388039997" expanded="true" signature="10578:10617" ph="SELECT name restaurant" />
+            <marker date="1479388039997" expanded="true" signature="10806:10885" ph="SELECT branc... restaurant" />
+            <marker date="1479388039997" expanded="true" signature="11027:11098" ph="SELECT locat... branch" />
+            <marker date="1479388039997" expanded="true" signature="12235:12278" ph="SELECT name category" />
+            <marker date="1479388039997" expanded="true" signature="12800:12849" ph="SELECT locat... branch" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/korean.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+          <folding>
+            <marker date="1479388179903" expanded="true" signature="10172:10217" ph="SELECT id FR... category" />
+            <marker date="1479388179903" expanded="true" signature="10339:10409" ph="SELECT resta... restaurant_has_category" />
+            <marker date="1479388179903" expanded="true" signature="10570:10609" ph="SELECT name restaurant" />
+            <marker date="1479388179903" expanded="true" signature="10798:10877" ph="SELECT branc... restaurant" />
+            <marker date="1479388179903" expanded="true" signature="11019:11090" ph="SELECT locat... branch" />
+            <marker date="1479388179903" expanded="true" signature="12227:12270" ph="SELECT name category" />
+            <marker date="1479388179903" expanded="true" signature="12792:12841" ph="SELECT locat... branch" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/latin_american.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+          <folding>
+            <marker date="1479388328560" expanded="true" signature="10196:10249" ph="SELECT id FR... category" />
+            <marker date="1479388328560" expanded="true" signature="10371:10441" ph="SELECT resta... restaurant_has_category" />
+            <marker date="1479388328560" expanded="true" signature="10602:10641" ph="SELECT name restaurant" />
+            <marker date="1479388328560" expanded="true" signature="10830:10909" ph="SELECT branc... restaurant" />
+            <marker date="1479388328560" expanded="true" signature="11051:11122" ph="SELECT locat... branch" />
+            <marker date="1479388328560" expanded="true" signature="12259:12302" ph="SELECT name category" />
+            <marker date="1479388328560" expanded="true" signature="12824:12873" ph="SELECT locat... branch" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/mediterranean.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+          <folding>
+            <marker date="1479388722608" expanded="true" signature="10193:10245" ph="SELECT id FR... category" />
+            <marker date="1479388722608" expanded="true" signature="10367:10437" ph="SELECT resta... restaurant_has_category" />
+            <marker date="1479388722608" expanded="true" signature="10598:10637" ph="SELECT name restaurant" />
+            <marker date="1479388722608" expanded="true" signature="10826:10905" ph="SELECT branc... restaurant" />
+            <marker date="1479388722608" expanded="true" signature="11047:11118" ph="SELECT locat... branch" />
+            <marker date="1479388722608" expanded="true" signature="12255:12298" ph="SELECT name category" />
+            <marker date="1479388722608" expanded="true" signature="12820:12869" ph="SELECT locat... branch" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/mexican.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+          <folding>
+            <marker date="1479388839776" expanded="true" signature="10175:10221" ph="SELECT id FR... category" />
+            <marker date="1479388839776" expanded="true" signature="10343:10413" ph="SELECT resta... restaurant_has_category" />
+            <marker date="1479388839776" expanded="true" signature="10574:10613" ph="SELECT name restaurant" />
+            <marker date="1479388839776" expanded="true" signature="10802:10881" ph="SELECT branc... restaurant" />
+            <marker date="1479388839776" expanded="true" signature="11023:11094" ph="SELECT locat... branch" />
+            <marker date="1479388839776" expanded="true" signature="12231:12274" ph="SELECT name category" />
+            <marker date="1479388839776" expanded="true" signature="12796:12845" ph="SELECT locat... branch" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/middle_east.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="314" column="115" selection-start-line="314" selection-start-column="115" selection-end-line="314" selection-end-column="115" />
+          <folding>
+            <marker date="1479388911284" expanded="true" signature="10196:10249" ph="SELECT id FR... category" />
+            <marker date="1479388911284" expanded="true" signature="10371:10441" ph="SELECT resta... restaurant_has_category" />
+            <marker date="1479388911284" expanded="true" signature="10602:10641" ph="SELECT name restaurant" />
+            <marker date="1479388911284" expanded="true" signature="10830:10909" ph="SELECT branc... restaurant" />
+            <marker date="1479388911284" expanded="true" signature="11051:11122" ph="SELECT locat... branch" />
+            <marker date="1479388911284" expanded="true" signature="12259:12302" ph="SELECT name category" />
+            <marker date="1479388911284" expanded="true" signature="12824:12873" ph="SELECT locat... branch" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/seafood.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+          <folding>
+            <marker date="1479389117801" expanded="true" signature="10175:10221" ph="SELECT id FR... category" />
+            <marker date="1479389117801" expanded="true" signature="10343:10413" ph="SELECT resta... restaurant_has_category" />
+            <marker date="1479389117801" expanded="true" signature="10574:10613" ph="SELECT name restaurant" />
+            <marker date="1479389117801" expanded="true" signature="10802:10881" ph="SELECT branc... restaurant" />
+            <marker date="1479389117801" expanded="true" signature="11023:11094" ph="SELECT locat... branch" />
+            <marker date="1479389117801" expanded="true" signature="12231:12274" ph="SELECT name category" />
+            <marker date="1479389117801" expanded="true" signature="12796:12845" ph="SELECT locat... branch" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/spanish.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+          <folding>
+            <marker date="1479389290618" expanded="true" signature="10175:10221" ph="SELECT id FR... category" />
+            <marker date="1479389290618" expanded="true" signature="10343:10413" ph="SELECT resta... restaurant_has_category" />
+            <marker date="1479389290618" expanded="true" signature="10574:10613" ph="SELECT name restaurant" />
+            <marker date="1479389290618" expanded="true" signature="10802:10881" ph="SELECT branc... restaurant" />
+            <marker date="1479389290618" expanded="true" signature="11023:11094" ph="SELECT locat... branch" />
+            <marker date="1479389290618" expanded="true" signature="12231:12274" ph="SELECT name category" />
+            <marker date="1479389290618" expanded="true" signature="12796:12845" ph="SELECT locat... branch" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/taiwanese.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+          <folding>
+            <marker date="1479389398630" expanded="true" signature="10181:10229" ph="SELECT id FR... category" />
+            <marker date="1479389398630" expanded="true" signature="10351:10421" ph="SELECT resta... restaurant_has_category" />
+            <marker date="1479389398630" expanded="true" signature="10582:10621" ph="SELECT name restaurant" />
+            <marker date="1479389398630" expanded="true" signature="10810:10889" ph="SELECT branc... restaurant" />
+            <marker date="1479389398630" expanded="true" signature="11031:11102" ph="SELECT locat... branch" />
+            <marker date="1479389398630" expanded="true" signature="12239:12282" ph="SELECT name category" />
+            <marker date="1479389398630" expanded="true" signature="12804:12853" ph="SELECT locat... branch" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/tea.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+          <folding>
+            <marker date="1479389510801" expanded="true" signature="10153:10195" ph="SELECT id FR... category" />
+            <marker date="1479389510801" expanded="true" signature="10317:10387" ph="SELECT resta... restaurant_has_category" />
+            <marker date="1479389510801" expanded="true" signature="10548:10587" ph="SELECT name restaurant" />
+            <marker date="1479389510801" expanded="true" signature="10776:10855" ph="SELECT branc... restaurant" />
+            <marker date="1479389510801" expanded="true" signature="10997:11068" ph="SELECT locat... branch" />
+            <marker date="1479389510801" expanded="true" signature="12205:12248" ph="SELECT name category" />
+            <marker date="1479389510801" expanded="true" signature="12770:12819" ph="SELECT locat... branch" />
+          </folding>
         </state>
       </provider>
     </entry>

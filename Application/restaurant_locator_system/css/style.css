@@ -1,3 +1,10 @@
+body{
+    background-image: url("http://localhost/restaurant_locator_system/res/images/login.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-blend-mode: screen;
+}
+
 #main{
     width:385px;
     margin:auto;
@@ -9,22 +16,26 @@ span{
 }
 
 h2{
-    background-color: #FEFFED;
+    /*background-color: #FEFFED;*/
     text-align:center;
     border-radius: 10px 10px 0 0;
     margin: -10px -40px;
     padding: 30px;
 }
 
-#login{
-
+#login, #signup{
     width:300px;
     float: left;
     border-radius: 10px;
     font-family:raleway;
     border: 2px solid #ccc;
     padding: 10px 40px 25px;
-    margin-top: 70px;
+    margin-top: 100px;
+    background-color: rgba(255,255,255,0.8);
+}
+
+#signup{
+    margin-top: 60px;
 }
 
 input[type=text],input[type=password], input[type=email]{

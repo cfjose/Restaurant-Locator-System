@@ -84,7 +84,7 @@
         public function logout(){
             $sess_array = array('username' => '');
             $this->session->unset_userdata('logged_in', $sess_array);
-            $this->load->view('login');
+            $this->load->view('index');
         }
 
         public function search(){

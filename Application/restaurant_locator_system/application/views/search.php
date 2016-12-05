@@ -1,11 +1,11 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+/*defined('BASEPATH') OR exit('No direct script access allowed');
 if (isset($this->session->userdata['logged_in'])) {
     $username = ($this->session->userdata['logged_in']['username']);
     $email = ($this->session->userdata['logged_in']['email']);
 } else {
     header("location: http://localhost/restaurant_locator_system/index.php/login");
-}
+}*/
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
@@ -34,6 +34,9 @@ if (isset($this->session->userdata['logged_in'])) {
         body {
             padding-bottom: 40px;
             color: #5a5a5a;
+            background-image: url("http://localhost/restaurant_locator_system/res/images/main/bg_top_img.jpg");
+            background-repeat:no-repeat;
+            background-size: cover;
         }
 
         /* CUSTOMIZE THE NAVBAR
@@ -59,6 +62,35 @@ if (isset($this->session->userdata['logged_in'])) {
         }
         .navbar-wrapper .navbar .container {
             width: auto;
+        }
+
+        div.left{
+            box-shadow: 0 0 30px #000;
+        }
+
+        div.name{
+            width:200px;
+            height:50px;
+            padding-top:10px;
+            background-color:rgba(0,0,0,0.5);
+        }
+
+        img.left{
+            margin-top:-60px;
+            border:1px black;
+            border-style:double;
+            border-width:thick;
+        }
+
+        div.left{
+            width:400px;
+            height:300px;
+            margin-right:0px;
+            margin-left:225px;
+            margin-top:85px;
+            border-radius:25px;
+            border-style:double;
+            border:1px solid black;
         }
 
 
@@ -98,7 +130,7 @@ if (isset($this->session->userdata['logged_in'])) {
         }
 
         .first-slide{
-            filter: blur(5px);
+            filter: brightness(50%);
         }
 
         .user{
@@ -198,6 +230,26 @@ if (isset($this->session->userdata['logged_in'])) {
             font-family: 'Yesteryear';
         }
 
+        #resBox{
+            width:25%;
+            height:400px;
+            padding-top:50px;
+            margin-left:120px;
+            margin-top:100px;
+            border: 1px solid black;
+            display:inline-block;
+            border-radius:5px;
+            background-image: url("http://localhost/restaurant_locator_system/res/images/green-footer.png");
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-position: bottom;
+            background-color: white;
+        }
+
+        #resBox:hover{
+            box-shadow: 0 0 20px gray;
+        }
+
         /* RESPONSIVE CSS
         -------------------------------------------------- */
 
@@ -241,6 +293,54 @@ if (isset($this->session->userdata['logged_in'])) {
             margin-top:80px;
         }
 
+        div.sidebar, div.sidebar-category, div.sidebar-location{
+            min-height: 100px;
+            width:20%;
+        }
+
+        div.sidebar{
+            padding: 20px;
+            margin-left:25px;
+            margin-top: 200px;
+        }
+
+        div.sidebar-location{ margin-top: 5px;}
+
+        div.sidebar-category, div.sidebar-location{
+            width:100%;
+            border: 1px solid black;
+            border-radius:5px;
+            padding-left:15px;
+            padding-top: 30px;
+            font-family: "Century Schoolbook";
+            background-image: url("http://localhost//restaurant_locator_system/res/images/main/bg_bot.jpg");
+            padding-bottom: 30px;
+        }
+
+        div.search-content{
+            width:75%;
+            margin-left: 20%;
+            position: absolute;
+            top: 100%;
+        }
+
+        p.sidebar-title{
+            font-size:18px;
+            text-align: center;
+            width:238px;
+            height:50px;
+            margin-left:-20px;
+            background-color: gold;
+            padding-top:10px;
+        }
+
+        a.sidebar-links{padding:10px;}
+
+        a.sidebar-links:hover{
+            text-decoration: none;
+            background-image: url(http://localhost//restaurant_locator_system/res/images/main/bg_top_img.jpg);
+            color: gold;
+        }
     </style>
 </head>
 <body>
@@ -260,11 +360,11 @@ if (isset($this->session->userdata['logged_in'])) {
     <div class="carousel-inner" role="listbox">
         <div class="item active">
             <img class="first-slide" src="http://localhost/restaurant_locator_system/res/images/restaurant-ambiance.jpg" alt="First slide">
-            <h3>Welcome, <?php echo $username; ?>!</h3>
+            <h3>Welcome, <?php //echo $username; ?>!</h3>
             <h5>Find the affordable restaurants nearby. </h5>
             <div id="search">
-                <form action="" method="get">
-                    <input id="keyword" name="q" placeholder="Search for city or restaurant name.." class="ui-autocomplete-input" autocomplete="off" role="textbox" aria-autocomplete="list" aria-haspopup="true">
+                <form action="http://localhost/restaurant_locator_system/index.php/search" method="get">
+                    <input id="keyword" name="q" placeholder="Search for city or restaurant name..." class="ui-autocomplete-input" autocomplete="off" role="textbox" aria-autocomplete="list" aria-haspopup="true">
                     <input id="go" type="submit" value="Search">
                 </form>
             </div>
@@ -272,8 +372,68 @@ if (isset($this->session->userdata['logged_in'])) {
     </div>
 </div>
 
-    <h2>Found 1 restaurant(s) named ''</h2>
+<div class="sidebar">
+    <div class="sidebar-category">
+        <p class="sidebar-title">Other Cuisines</p><br/>
+        <?php
+            $link = mysqli_connect("localhost", "root", "projDb_2016", "rls_db");
 
+            $queryAllCategory = "SELECT name FROM category ORDER BY name ASC";
+            $resultAllCategory = mysqli_query($link, $queryAllCategory);
+
+            while($allCategory = mysqli_fetch_assoc($resultAllCategory)){
+                $lowStr = strtolower($allCategory['name']);
+                echo "<p><a href='http://localhost/restaurant_locator_system/index.php/{$lowStr}' class='sidebar-links'>" . $allCategory['name'] . "</a></p>";
+            }
+        ?>
+    </div>
+    <div class="sidebar-location">
+        <p class="sidebar-title">Other Locations</p><br/>
+        <?php
+            $queryAllLocation = "SELECT location FROM branch ORDER BY location ASC";
+            $resultAllLocation = mysqli_query($link, $queryAllLocation);
+
+            while($allLocation = mysqli_fetch_assoc($resultAllLocation)){
+                echo "<p><a href='' class='sidebar-links'>" . $allLocation['location'] . " City </a></p>";
+            }
+        ?>
+    </div>
+</div>
+<?php
+    echo "<div class='search-content'>";
+        $res_name = $_GET['q'];
+        if($res_name == ''){
+            $msg = "Empty Search query. Please try again.";
+        }else{
+            $queryCount = "SELECT name FROM restaurant WHERE name = '" . $res_name . "'";
+            $resultCount = mysqli_query($link, $queryCount);
+            $msg = "Found " . mysqli_num_rows($resultCount) . " restaurant(s) named '" . $res_name . "'";
+
+            echo "<h2>" . $msg . "</h2><br/>";
+
+            while($resCount = mysqli_fetch_assoc($resultCount)){
+                echo "<a href=''><div id='resBox'><center>";
+
+                $queryBr = "SELECT branch_id FROM restaurant WHERE name = '" . $resCount['name'] . "'";
+                $resultBr = mysqli_query($link, $queryBr);
+                $branchId = mysqli_fetch_assoc($resultBr);
+
+                $queryResLoc = "SELECT location FROM branch WHERE id = '" . $branchId['branch_id'] . "'";
+                $resultResLoc = mysqli_query($link, $queryResLoc);
+                $branchLocation = mysqli_fetch_assoc($resultResLoc);
+
+                echo "<img src='http://localhost/restaurant_locator_system/res/images/restaurants/{$branchLocation['location']} City/{$resCount['name']}/image.jpg' width='150px' height='150px'/>";
+                echo "<br/><br/>";
+                echo $resCount['name'];
+
+                echo "<br/>" . $branchLocation['location'] . " City";
+                echo "<br/><br/><img src='http://localhost/restaurant_locator_system/res/images/star.png' width='50px' height='50px'/>";
+                echo "<br/>5 out of 5";
+                echo "</center></div></a>";
+            }
+        }
+    echo "</div>";
+?>
     <!-- FOOTER -->
     <footer>
         <p class="pull-right"><a href="#">Back to top</a></p>

@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Created by PhpStorm.
  * User: chamb
@@ -62,4 +61,33 @@ class login_database extends CI_Model
             return false;
         }
     }
+
+    /*public function read_restaurant_information($res_name){
+
+        $condition = "name =" . "'" . $res_name . "'";
+        $this->db->select('name');
+        $this->db->from('restaurant');
+        $this->db->where($condition);
+        $query = $this->db->get();
+        $rowCount = $query->num_rows();
+
+        if($rowCount >= 1){
+            $_SESSION['res_count'] = $rowCount;
+            return "search";
+        }else{
+            /*$this->db->select('location');
+            $this->db->from('branch');
+            $this->db->where($condition);
+
+            $query = $this->db->get();
+            $brCount = $query->num_rows();
+
+            if($brCount >= 1){
+                $_SESSION['res_count'] = $brCount;
+            }else{
+                $_SESSION['res_count'] = 0;
+            }
+            return false;
+        }
+    }*/
 }

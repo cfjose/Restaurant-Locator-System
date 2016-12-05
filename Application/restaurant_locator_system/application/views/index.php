@@ -1,5 +1,10 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
+if (isset($this->session->userdata['logged_in'])) {
+	header('location: http://localhost/restaurant_locator_system/index.php/main');
+} else {
+	//Do nothing
+}
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
@@ -89,6 +94,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			background-color: rgba(34,34,34,0.8);
 		}
 
+        div.body-img, div.body-content{
+            display: inline-block;
+        }
+
+        div.body-content{
+            margin-left:40px;
+        }
+
+        div.body{ margin-left:120px; margin-top: 200px;}
+
 
 		/* RESPONSIVE CSS
         -------------------------------------------------- */
@@ -159,7 +174,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<div id="navbar" class="navbar-collapse collapse">
 			<form class="navbar-form navbar-right" action="http://localhost/restaurant_locator_system/index.php/user_authentication/user_login_process">
 				<button type="submit" class="btn btn-success">Sign in</button>
-				<a href="http://localhost/restaurant_locator_system/index.php/signup">Sign up today</a>
+				<a href="http://localhost/restaurant_locator_system/index.php/signup" class="btn btn-primary">Sign up</a>
 			</form>
 		</div><!--/.navbar-collapse -->
 	</div>
@@ -190,7 +205,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<div class="container">
 				<div class="carousel-caption">
 					<h1>Restaurant Ratings and Reviews</h1>
-					<p>Never let yourself be disappointed again with restaurants. Read reviews and see who best fits your cravings</p>
+					<p>Never let yourself be disappointed again with restaurant services. Read reviews and see who best fits your cravings</p>
 					<p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
 				</div>
 			</div>
@@ -216,6 +231,25 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	</a>
 </div><!-- /.carousel -->
 
+<div class="body">
+    <div class="body-img">
+        <img src="http://localhost/restaurant_locator_system/res/images/map.png" width="200px" height="150px"/>
+    </div>
+    <div class="body-content">
+        <h4>Location</h4>
+        <p>Sample Description Here</p>
+    </div>
+</div>
+
+<div class="body">
+    <div class="body-img">
+        <img src="http://localhost/restaurant_locator_system/res/images/fstar.png" width="200px" height="150px"/>
+    </div>
+    <div class="body-content">
+        <h4>Ratings</h4>
+        <p>Sample Description Here</p>
+    </div>
+</div>
 <!-- FOOTER -->
 <footer>
 	<p class="pull-right"><a href="#">Back to top</a></p>

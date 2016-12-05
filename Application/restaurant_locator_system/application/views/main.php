@@ -1,13 +1,13 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 if (isset($this->session->userdata['logged_in'])) {
-    $username = ($this->session->userdata['logged_in']['username']);
+    $_SESSION['username'] = $username = ($this->session->userdata['logged_in']['username']);
     $email = ($this->session->userdata['logged_in']['email']);
 } else {
     header("location: http://localhost/restaurant_locator_system/index.php/login");
 }
 ?><!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -98,7 +98,7 @@ if (isset($this->session->userdata['logged_in'])) {
         }
 
         .first-slide{
-            filter: blur(5px);
+            filter: brightness(50%);
         }
 
         .user{
@@ -265,7 +265,7 @@ if (isset($this->session->userdata['logged_in'])) {
             <div id="search">
                 <form action="search" method="get">
                     <input id="keyword" name="q" placeholder="Search for city or restaurant name.." class="ui-autocomplete-input" autocomplete="off" role="textbox" aria-autocomplete="list" aria-haspopup="true">
-                    <input id="go" type="submit" value="Search">
+                    <input id="go" type="submit" value="Search" name="search">
                 </form>
             </div>
         </div>
@@ -274,28 +274,32 @@ if (isset($this->session->userdata['logged_in'])) {
     <div style="text-align: center;">
         <h2> Suggested <br /><em> Cuisines </em> </h2>
         <div style="float: left; width: 50%; margin: 0 auto;">
-            <h3 class="cuititle"> <a href=""><font color="black"> American </font></a></h3>
-            <img src="https://img.grouponcdn.com/deal/23xq8aqhkiXd4X6saJx1/DQ-700x420/v1/c700x420.jpg" width="500" height="300" >
+            <a href="http://localhost/restaurant_locator_system/index.php/american"><img src="http://localhost/restaurant_locator_system/res/images/american.jpg" width="500" height="300" >
+            <h3 class="cuititle"><font color="black"> American </font></h3></a>
         </div>
         <div style="float: left; width: 50%; margin: 0 auto;">
-            <h3 class="cuititle"> <a href=""><font color="black"> Chinese </font></a></h3>
-            <img src="https://s-media-cache-ak0.pinimg.com/originals/1e/6f/0a/1e6f0a48ad1168accfd7898e4e4cb9f2.jpg" width="500" height="300">
+            <a href="http://localhost/restaurant_locator_system/index.php/chinese"><font color="black"><img src="http://localhost/restaurant_locator_system/res/images/chinese.jpg" width="500" height="300">
+            <h3 class="cuititle"> Chinese </font></h3></a>
+
         </div>
         <div style="float: left; width: 50%; margin: 0 auto;">
-            <h3 class="cuititle"> <a href=""><font color="black"> Italian </font></a></h3>
-            <img src="http://www.borongaja.com/data_images/out/13/622789-italian-food-pizza.jpg" width="500" height="300">
+            <a href="http://localhost/restaurant_locator_system/index.php/italian"><font color="black"><img src="http://localhost/restaurant_locator_system/res/images/italian.jpg" width="500" height="300">
+            <h3 class="cuititle">Italian </font></h3></a>
+
         </div>
         <div style="float: left; width: 50%; margin: 0 auto;">
-            <h3 class="cuititle"> <a href=""><font color="black"> Filipino </font></a></h3>
-            <img src="http://www.tablefortwoblog.com/wp-content/uploads/2012/03/crockpot-chicken-adobo-2.jpg" width="500" height="300">
+            <a href="http://localhost/restaurant_locator_system/index.php/filipino"><img src="http://localhost/restaurant_locator_system/res/images/filipino.jpg" width="500" height="300">
+            <h3 class="cuititle"><font color="black"> Filipino </font></h3></a>
+
         </div>
         <div style="float: left; width: 50%; margin: 0 auto;">
-            <h3 class="cuititle"> <a href=""><font color="black"> Japanese </font></a></h3>
-            <img src="http://www.zastavki.com/pictures/originals/2014/Food___Seafood____Japanese_cuisine_060283_.jpg" width="500" height="300">
+            <a href="http://localhost/restaurant_locator_system/index.php/japanese"><img src="http://localhost/restaurant_locator_system/res/images/japanese.jpg" width="500" height="300">
+            <h3 class="cuititle"><font color="black"> Japanese </font></h3></a>
         </div>
         <div style="float: left; width: 50%; margin: 0 auto;">
-            <h3 class="cuititle"> <a href=""><font color="black"> Mexican </font></a></h3>
-            <img src="http://factoflife.net/upload/images/20160510/tortillas%20-mexican-food.jpg" width="500" height="300">
+            <a href="http://localhost/restaurant_locator_system/index.php/mexican"><img src="http://localhost/restaurant_locator_system/res/images/mexican.jpg" width="500" height="300">
+            <h3 class="cuititle"><font color="black"> Mexican </font></h3></a>
+
         </div>
     </div>
     <!-- FOOTER -->
